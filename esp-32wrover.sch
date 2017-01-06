@@ -2337,4 +2337,110 @@ Wire Wire Line
 	14145 2930 14145 2925
 Wire Wire Line
 	14145 2925 14175 2925
+Text GLabel 7355 3655 0    39   Input ~ 0
+IO27
+Text GLabel 7355 3750 0    39   Input ~ 0
+IO14
+Text GLabel 7355 3850 0    39   Input ~ 0
+IO12
+Text GLabel 9460 2520 2    39   Input ~ 0
+IO23
+Text GLabel 9480 2620 2    39   Input ~ 0
+IO22
+Text GLabel 9470 2915 2    39   Input ~ 0
+IO21
+Text GLabel 9460 3115 2    39   Input ~ 0
+IO27
+Text GLabel 9440 3210 2    39   Input ~ 0
+IO18
+Text GLabel 9430 3415 2    39   Input ~ 0
+IO17
+Text GLabel 9430 3510 2    39   Input ~ 0
+IO16
+Text GLabel 8110 4380 3    39   Input ~ 0
+IO13
+Text GLabel 8210 4380 3    39   Input ~ 0
+SD2
+Text GLabel 8305 4380 3    39   Input ~ 0
+SD3
+Text GLabel 8405 4380 3    39   Input ~ 0
+CMD
+Text GLabel 8505 4385 3    39   Input ~ 0
+CLK
+Text GLabel 8610 4380 3    39   Input ~ 0
+SDO
+Text GLabel 8715 4385 3    39   Input ~ 0
+SD1
+Text GLabel 8810 4390 3    39   Input ~ 0
+IO15
+Text GLabel 15275 2325 2    39   Input ~ 0
+TXD
+Text GLabel 15280 2225 2    39   Input ~ 0
+RXD
+Text GLabel 15280 2620 2    39   Input ~ 0
+IO12
+Text GLabel 15280 2825 2    39   Input ~ 0
+IO14
+Text GLabel 15305 2025 2    39   Input ~ 0
+IO27
+Text GLabel 15330 1825 2    39   Input ~ 0
+IO17
+Text GLabel 15305 1925 2    39   Input ~ 0
+IO16
+Text GLabel 15275 2425 2    39   Input ~ 8
+GPIO0
+Text GLabel 15270 2525 2    39   Input ~ 0
+GPIO2
+Text GLabel 15285 2925 2    39   Input ~ 0
+IO15
+Text GLabel 15330 1625 2    39   Input ~ 0
+SD2
+Text GLabel 15280 2725 2    39   Input ~ 0
+IO13
+Text GLabel 15365 1725 2    39   Input ~ 0
+SD3
+Text GLabel 15340 1125 2    39   Input ~ 0
+CMD
+Text GLabel 15350 1225 2    39   Input ~ 0
+CLK
+Text GLabel 15345 1325 2    39   Input ~ 0
+SDO
+Text GLabel 15350 1525 2    39   Input ~ 0
+SD1
+Wire Wire Line
+	15340 1125 15200 1125
+Wire Wire Line
+	15350 1225 15200 1225
+Wire Wire Line
+	15345 1325 15200 1325
+Wire Wire Line
+	15350 1525 15200 1525
+Wire Wire Line
+	15330 1625 15200 1625
+Wire Wire Line
+	15365 1725 15200 1725
+Wire Wire Line
+	15330 1825 15200 1825
+Wire Wire Line
+	15305 1925 15200 1925
+Wire Wire Line
+	15305 2025 15200 2025
+Wire Wire Line
+	15280 2225 15200 2225
+Wire Wire Line
+	15275 2325 15200 2325
+Wire Wire Line
+	15200 2425 15275 2425
+Wire Wire Line
+	15270 2525 15200 2525
+Wire Wire Line
+	15280 2620 15280 2625
+Wire Wire Line
+	15280 2625 15200 2625
+Wire Wire Line
+	15280 2725 15200 2725
+Wire Wire Line
+	15280 2825 15200 2825
+Wire Wire Line
+	15285 2925 15200 2925
 $EndSCHEMATC
