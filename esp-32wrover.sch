@@ -2337,39 +2337,39 @@ Wire Wire Line
 	14145 2930 14145 2925
 Wire Wire Line
 	14145 2925 14175 2925
-Text GLabel 7355 3655 0    39   Input ~ 0
+Text GLabel 7355 3665 0    39   Input ~ 0
 IO27
-Text GLabel 7355 3750 0    39   Input ~ 0
+Text GLabel 7345 3765 0    39   Input ~ 0
 IO14
-Text GLabel 7355 3850 0    39   Input ~ 0
+Text GLabel 7355 3865 0    39   Input ~ 0
 IO12
-Text GLabel 9460 2520 2    39   Input ~ 0
+Text GLabel 9460 2515 2    39   Input ~ 0
 IO23
-Text GLabel 9480 2620 2    39   Input ~ 0
+Text GLabel 9480 2610 2    39   Input ~ 0
 IO22
 Text GLabel 9470 2915 2    39   Input ~ 0
 IO21
 Text GLabel 9460 3115 2    39   Input ~ 0
 IO27
-Text GLabel 9440 3210 2    39   Input ~ 0
+Text GLabel 9445 3215 2    39   Input ~ 0
 IO18
 Text GLabel 9430 3415 2    39   Input ~ 0
 IO17
-Text GLabel 9430 3510 2    39   Input ~ 0
+Text GLabel 9420 3515 2    39   Input ~ 0
 IO16
 Text GLabel 8110 4380 3    39   Input ~ 0
 IO13
 Text GLabel 8210 4380 3    39   Input ~ 0
 SD2
-Text GLabel 8305 4380 3    39   Input ~ 0
+Text GLabel 8310 4380 3    39   Input ~ 0
 SD3
-Text GLabel 8405 4380 3    39   Input ~ 0
+Text GLabel 8410 4380 3    39   Input ~ 0
 CMD
-Text GLabel 8505 4385 3    39   Input ~ 0
+Text GLabel 8510 4385 3    39   Input ~ 0
 CLK
 Text GLabel 8610 4380 3    39   Input ~ 0
 SDO
-Text GLabel 8715 4385 3    39   Input ~ 0
+Text GLabel 8710 4390 3    39   Input ~ 0
 SD1
 Text GLabel 8810 4390 3    39   Input ~ 0
 IO15
@@ -2443,4 +2443,44 @@ Wire Wire Line
 	15280 2825 15200 2825
 Wire Wire Line
 	15285 2925 15200 2925
+Wire Wire Line
+	7355 3665 7510 3665
+Wire Wire Line
+	7345 3765 7510 3765
+Wire Wire Line
+	7355 3865 7510 3865
+Wire Wire Line
+	8110 4315 8110 4380
+Wire Wire Line
+	8210 4315 8210 4380
+Wire Wire Line
+	8310 4315 8310 4380
+Wire Wire Line
+	8410 4315 8410 4380
+Wire Wire Line
+	8510 4315 8510 4385
+Wire Wire Line
+	8610 4315 8610 4380
+Wire Wire Line
+	8710 4315 8710 4390
+Wire Wire Line
+	8810 4315 8810 4390
+Wire Wire Line
+	9420 3515 9360 3515
+Wire Wire Line
+	9430 3415 9360 3415
+Wire Wire Line
+	9445 3215 9360 3215
+Wire Wire Line
+	9460 3115 9360 3115
+Wire Wire Line
+	9470 2915 9360 2915
+Wire Wire Line
+	9480 2610 9410 2610
+Wire Wire Line
+	9410 2610 9410 2615
+Wire Wire Line
+	9410 2615 9360 2615
+Wire Wire Line
+	9460 2515 9360 2515
 $EndSCHEMATC
