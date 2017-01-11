@@ -30,17 +30,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L CONN_8 P1
-U 1 1 5517C2C1
-P 14525 1875
-F 0 "P1" V 14475 1875 60  0000 C CNN
-F 1 "Power" V 14575 1875 60  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 14525 1875 60  0001 C CNN
-F 3 "" H 14525 1875 60  0000 C CNN
-	1    14525 1875
-	1    0    0    -1  
-$EndComp
-$Comp
 L CONN_6 P2
 U 1 1 5517C323
 P 14525 2675
@@ -1439,10 +1428,6 @@ Text GLabel 9480 2610 2    39   Input ~ 0
 IO22
 Text GLabel 9470 2915 2    39   Input ~ 0
 IO21
-Text GLabel 9460 3115 2    39   Input ~ 0
-IO27
-Text GLabel 9445 3215 2    39   Input ~ 0
-IO18
 Text GLabel 9430 3415 2    39   Input ~ 0
 IO17
 Text GLabel 9420 3515 2    39   Input ~ 0
@@ -1467,35 +1452,35 @@ Text GLabel 15280 2825 2    39   Input ~ 0
 TXD
 Text GLabel 15285 2925 2    39   Input ~ 0
 RXD
-Text GLabel 15275 2425 2    39   Input ~ 0
-IO12
-Text GLabel 15280 2625 2    39   Input ~ 0
-IO14
-Text GLabel 15305 2025 2    39   Input ~ 0
-IO27
-Text GLabel 15330 1825 2    39   Input ~ 0
-IO17
 Text GLabel 15305 1925 2    39   Input ~ 0
-IO16
-Text GLabel 15280 2225 2    39   Input ~ 8
-GPIO0
-Text GLabel 15275 2325 2    39   Input ~ 0
-GPIO2
+IO12
+Text GLabel 15305 2025 2    39   Input ~ 0
+IO14
+Text GLabel 15280 2225 2    39   Input ~ 0
+IO27
 Text GLabel 15280 2725 2    39   Input ~ 0
+IO17
+Text GLabel 15280 2625 2    39   Input ~ 0
+IO16
+Text GLabel 15270 2525 2    39   Input ~ 8
+GPIO0
+Text GLabel 15275 2425 2    39   Input ~ 0
+GPIO2
+Text GLabel 15275 2325 2    39   Input ~ 0
 IO15
-Text GLabel 15330 1625 2    39   Input ~ 0
-SD2
-Text GLabel 15270 2525 2    39   Input ~ 0
-IO13
 Text GLabel 15365 1725 2    39   Input ~ 0
+SD2
+Text GLabel 15330 1825 2    39   Input ~ 0
+IO13
+Text GLabel 15330 1625 2    39   Input ~ 0
 SD3
-Text GLabel 15340 1125 2    39   Input ~ 0
-CMD
-Text GLabel 15350 1225 2    39   Input ~ 0
-CLK
-Text GLabel 15345 1325 2    39   Input ~ 0
-SDO
 Text GLabel 15350 1525 2    39   Input ~ 0
+CMD
+Text GLabel 15345 1325 2    39   Input ~ 0
+CLK
+Text GLabel 15350 1225 2    39   Input ~ 0
+SDO
+Text GLabel 15340 1125 2    39   Input ~ 0
 SD1
 NoConn ~ 5965 6650
 NoConn ~ 5965 6550
@@ -1548,8 +1533,6 @@ Text GLabel 11690 7610 0    39   Input ~ 0
 IO21
 NoConn ~ 14175 1625
 NoConn ~ 9360 3815
-Text GLabel 14150 1525 0    39   Input ~ 0
-IO18
 Wire Wire Line
 	13975 1825 14175 1825
 Wire Wire Line
@@ -2225,10 +2208,6 @@ Wire Wire Line
 Wire Wire Line
 	9430 3415 9360 3415
 Wire Wire Line
-	9445 3215 9360 3215
-Wire Wire Line
-	9460 3115 9360 3115
-Wire Wire Line
 	9470 2915 9360 2915
 Wire Wire Line
 	9480 2610 9410 2610
@@ -2270,8 +2249,6 @@ Wire Wire Line
 Wire Wire Line
 	9400 8825 9400 9200
 Wire Wire Line
-	14175 1525 14150 1525
-Wire Wire Line
 	14100 2025 14100 2125
 Wire Wire Line
 	14100 2125 14175 2125
@@ -2280,51 +2257,6 @@ Wire Wire Line
 Wire Wire Line
 	13975 2050 13975 2070
 Connection ~ 14100 2050
-$Comp
-L CONN_02X03 P11
-U 1 1 587C01FD
-P 14470 7640
-F 0 "P11" H 14470 7840 50  0000 C CNN
-F 1 "ICSP-1" H 14470 7440 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03_Pitch2.54mm" H 14470 6440 50  0001 C CNN
-F 3 "" H 14470 6440 50  0000 C CNN
-	1    14470 7640
-	1    0    0    -1  
-$EndComp
-$Comp
-L +3.3V #PWR042
-U 1 1 587FE302
-P 14890 7460
-F 0 "#PWR042" H 14890 7310 50  0001 C CNN
-F 1 "+3.3V" H 14890 7600 50  0000 C CNN
-F 2 "" H 14890 7460 60  0000 C CNN
-F 3 "" H 14890 7460 60  0000 C CNN
-	1    14890 7460
-	1    0    0    -1  
-$EndComp
-$Comp
-L GND #PWR043
-U 1 1 587FE421
-P 14935 7820
-F 0 "#PWR043" H 14935 7570 50  0001 C CNN
-F 1 "GND" H 14935 7670 50  0000 C CNN
-F 2 "" H 14935 7820 60  0000 C CNN
-F 3 "" H 14935 7820 60  0000 C CNN
-	1    14935 7820
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	14720 7540 14890 7540
-Wire Wire Line
-	14890 7540 14890 7460
-Wire Wire Line
-	14720 7740 14935 7740
-Wire Wire Line
-	14935 7740 14935 7820
-NoConn ~ 14720 7640
-NoConn ~ 14220 7740
-NoConn ~ 14220 7640
-NoConn ~ 14220 7540
 $Comp
 L Crystal Y2
 U 1 1 58749F5F
@@ -2396,4 +2328,21 @@ Wire Wire Line
 	15165 4040 15165 4200
 Wire Wire Line
 	15165 4200 14975 4200
+$Comp
+L CONN_8 P1
+U 1 1 5517C2C1
+P 14525 1875
+F 0 "P1" V 14475 1875 60  0000 C CNN
+F 1 "Power" V 14575 1875 60  0000 C CNN
+F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" H 14525 1875 60  0001 C CNN
+F 3 "" H 14525 1875 60  0000 C CNN
+	1    14525 1875
+	1    0    0    -1  
+$EndComp
+NoConn ~ 14175 1525
+NoConn ~ 9360 3215
+NoConn ~ 9360 3115
+NoConn ~ 13115 1565
+NoConn ~ 17705 1915
+NoConn ~ 16270 1850
 $EndSCHEMATC
