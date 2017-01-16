@@ -1,4 +1,4 @@
-update=1/5/2017 5:11:42 PM
+update=Chủ nhật, 15 Tháng một Năm 2017 16:11:34 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,20 +27,20 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../thu-vien;thu-vien
+LibDir=
 [eeschema/libraries]
-LibName1=thu-vien/bb-ch340t
-LibName2=thu-vien/CH340G
-LibName3=thu-vien/conn
-LibName4=thu-vien/dc-dc
-LibName5=thu-vien/device
-LibName6=thu-vien/ESP32-footprints-Shem-Lib
-LibName7=thu-vien/ESP8266
-LibName8=thu-vien/linear
-LibName9=thu-vien/logo
-LibName10=thu-vien/MOSFET-P
-LibName11=thu-vien/open-project
-LibName12=thu-vien/pl2303
-LibName13=thu-vien/power
-LibName14=thu-vien/relays
-LibName15=thu-vien/usb_mini_b
+LibName1=thu-vien/schamatic/bb-ch340t
+LibName2=thu-vien/schamatic/CH340G
+LibName3=thu-vien/schamatic/conn
+LibName4=thu-vien/schamatic/dc-dc
+LibName5=thu-vien/schamatic/device
+LibName6=thu-vien/schamatic/ESP32-footprints-Shem-Lib
+LibName7=thu-vien/schamatic/ESP8266
+LibName8=thu-vien/schamatic/linear
+LibName9=thu-vien/schamatic/logo
+LibName10=thu-vien/schamatic/MOSFET-P
+LibName11=thu-vien/schamatic/open-project
+LibName12=thu-vien/schamatic/pl2303
+LibName13=thu-vien/schamatic/power
+LibName14=thu-vien/schamatic/relays
+LibName15=thu-vien/schamatic/usb_mini_b
