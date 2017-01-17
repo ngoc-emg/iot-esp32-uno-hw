@@ -2811,9 +2811,9 @@
     (pad 1 smd oval (at 9 5.25 90) (size 2.5 0.9) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
     (pad 39 smd rect (at 0.3 -2.45 90) (size 6 6) (layers F.Cu F.Paste F.Mask))
-    (model /home/q-ngoc/Pro-Folked/iot-esp32-uno-hw/thu-vien/3d-l.3dshapes/esp-32-wrover.wrl
+    (model /home/q-ngoc/Pro-Folked/iot-esp32-uno-hw/thu-vien/3d-l.3dshapes/esp32.wrl
       (at (xyz 0.35 0.733 0))
-      (scale (xyz 0.39 0.392 1))
+      (scale (xyz 0.39 0.392 0.5))
       (rotate (xyz 0 0 180))
     )
   )
