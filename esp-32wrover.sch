@@ -2235,7 +2235,7 @@ U 1 1 58749F5F
 P 6600 3350
 F 0 "Y1" H 6600 3500 50  0000 C CNN
 F 1 "32.768Khz" H 6600 3200 50  0000 C CNN
-F 2 "Crystals:Crystal_DS26_d2.0mm_l6.0mm_Horizontal" H 6600 3350 50  0000 C CNN
+F 2 "Crystals:Crystal_DS26_d2.0mm_l6.0mm_Horizontal" H 6600 3350 50  0001 C CNN
 F 3 "" H 6600 3350 50  0000 C CNN
 	1    6600 3350
 	0    1    1    0   

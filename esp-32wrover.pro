@@ -1,4 +1,4 @@
-update=Chủ nhật, 15 Tháng một Năm 2017 16:11:34 ICT
+update=Thứ tư, 18 Tháng một Năm 2017 00:48:56 ICT
 version=1
 last_client=kicad
 [pcbnew]
@@ -44,3 +44,13 @@ LibName12=thu-vien/schamatic/pl2303
 LibName13=thu-vien/schamatic/power
 LibName14=thu-vien/schamatic/relays
 LibName15=thu-vien/schamatic/usb_mini_b
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

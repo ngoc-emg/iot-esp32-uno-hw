@@ -19,3 +19,11 @@
 - IO pin: 23 pin with 6 pin Analog (A0-A5).
 - Support display with header oled.
 - 1 reset button, 1 flash button.
+
+### Schematic.
+
+<img src="../assets/schematic.png" alt="-" height="600" width="600"> 
+
+### 3D
+
+<img src="../assets/esp-32wrover.png" alt="-" height="600" width="600"> 
