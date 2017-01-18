@@ -22,7 +22,8 @@
 
 ### Schematic.
 
-[![Pin Functions](assets/esp-32wrover.png)](assets/esp-32wrover.png)
+[![Sơ đồ nguyên l](assets/schematic.png)](assets/schematic.png)
+
 ### 3D
 
-<img src="../assets/esp-32wrover.png" alt="-" height="600" width="600"> 
+[![3D](assets/esp-32wrover.png)](assets/esp-32wrover.png)
