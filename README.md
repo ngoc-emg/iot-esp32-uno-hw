@@ -22,8 +22,7 @@
 
 ### Schematic.
 
-![Pin Functions](../assets/esp-32wrover.png) 
-
+[![Pin Functions](assets/esp-32wrover.png)](assets/esp-32wrover.png)
 ### 3D
 
 <img src="../assets/esp-32wrover.png" alt="-" height="600" width="600"> 
