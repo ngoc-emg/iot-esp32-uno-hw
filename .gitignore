@@ -1,3 +1,4 @@
 *.bak
 *.cmp
-
+*.kicad_pcb-bak
+fp-lib-table/
