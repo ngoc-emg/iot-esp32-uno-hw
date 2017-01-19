@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name new)(type KiCad)(uri "$(KIPRJMOD)/thu-vien/new")(options "")(descr ""))
+  (lib (name w_crystal)(type KiCad)(uri /home/q-ngoc/kiacad/mod_crystal/w_crystal.pretty)(options "")(descr ""))
 )
