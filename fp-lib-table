@@ -1,4 +1,8 @@
 (fp_lib_table
+<<<<<<< HEAD
   (lib (name new)(type KiCad)(uri "$(KIPRJMOD)/thu-vien/new")(options "")(descr ""))
   (lib (name w_crystal)(type KiCad)(uri /home/q-ngoc/kiacad/mod_crystal/w_crystal.pretty)(options "")(descr ""))
+=======
+  (lib (name footprint)(type KiCad)(uri "$(KIPRJMOD)/lib/footprint.pretty")(options "")(descr ""))
+>>>>>>> esp/master
 )

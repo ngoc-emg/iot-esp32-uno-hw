@@ -22,8 +22,13 @@
 
 ### Schematic.
 
+<<<<<<< HEAD
 [![Sơ đồ nguyên l](assets/schematic.png)](assets/schematic.png)
 
 ### 3D
 
 [![3D](assets/esp-32wrover.png)](assets/esp-32wrover.png)
+=======
+
+### 3D
+>>>>>>> esp/master
